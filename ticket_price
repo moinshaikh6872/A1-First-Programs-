@@ -1,0 +1,13 @@
+age = int(input("Enter your age to check the ticket price: "))
+
+if age < 12:
+    price = 100
+    print("Category: Child")
+elif age >= 60:
+    price = 150
+    print("Category: Senior Citizen")
+else:
+    price = 250
+    print("Category: Adult")
+
+print(f"Your ticket price is: ₹{price}")
